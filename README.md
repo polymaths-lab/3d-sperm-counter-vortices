@@ -80,7 +80,7 @@ These folders contain all codes used to generate the **Supplementary Figures**, 
 
 > Supplementary Figures 1–8.
 
-They also require the reconstructed data generated from the `Data*` folders.
+They also require the data generated from the `Data*` folders.
 
 ---
 
@@ -94,7 +94,7 @@ These folders contain all codes used to generate the **Supplementary Movies**, c
 
 > Supplementary Movies 1–8.
 
-Again, these rely on the reconstructed motility and flow data produced in the `Data*` folders.
+Again, these rely on the motility and flow data produced in the `Data*` folders.
 
 ---
 
