@@ -1,11 +1,6 @@
 # Repository for Manuscript at Nature Communications
 
 This repository contains all codes used in the manuscript currently under consideration at *Nature Communications*.  
-An earlier version of the manuscript is available on bioRxiv:
-
-https://www.biorxiv.org/content/10.1101/2024.05.29.596379v1.full
-
-> Note: The bioRxiv version is not the latest version of the manuscript; the most recent version corresponds to the submission to *Nature Communications*.
 
 ---
 
