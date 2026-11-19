@@ -38,14 +38,13 @@ These folders contain codes for:
 
 - The **raw experimental source data are provided** in this repository.
 - However, **calculated data are not provided**, including:
-  - reconstructed motility data,
-  - flow field data,
-  - idealised model waveform data.
+  - the predicted motility and flow field data of the reconstructed human sperm,
+  - the waveform, cell motility and flow field data of the idealised models.
 
 This is because:
 1. These data can be reproduced by readers using the provided source data and codes.
 2. The total size of these calculated datasets is very large.
-3. These datasets are intermediate results and are intended to be generated locally by users.
+3. These datasets are intermediate outputs of the computational pipeline, and are designed to be regenerated programmatically as part of the standard analysis workflow when the provided codes are executed.
 
 ⚠️ **Crucial**:  
 Although not provided, these calculated datasets are **essential inputs** for running the codes in the other three types of folders (`MT_Fig*`, `SI_Fig*`, `SI_Movie*`).
@@ -60,7 +59,7 @@ Example folders:
 
 These folders contain all codes used to generate the **main text figures**, corresponding to:
 
-> Figures 1–7 in the main manuscript.
+> Figures 1–8 in the main manuscript.
 
 They rely on the processed and reconstructed data generated in the `Data*` folders.
 
@@ -74,7 +73,7 @@ Example folders:
 
 These folders contain all codes used to generate the **Supplementary Figures**, corresponding to:
 
-> Supplementary Figures 1–8.
+> Supplementary Figures 1–12.
 
 They also require the data generated from the `Data*` folders.
 
@@ -88,7 +87,7 @@ Example folders:
 
 These folders contain all codes used to generate the **Supplementary Movies**, corresponding to:
 
-> Supplementary Movies 1–8.
+> Supplementary Movies 1–9.
 
 Again, these rely on the motility and flow data produced in the `Data*` folders.
 
